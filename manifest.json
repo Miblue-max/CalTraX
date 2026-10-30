@@ -1,0 +1,75 @@
+{
+  "name": "CalTraX PRO — Calorie & Hydration Tracker",
+  "short_name": "CalTraX PRO",
+  "id": "caltrax-pro-tracker-pwa",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "bn",
+  "dir": "ltr",
+  "background_color": "#ffffff",
+  "theme_color": "#0284c7",
+  "description": "Official CalTraX PRO daily food calorie, macronutrient, cooking oil and water hydration tracker with Mifflin-St Jeor metabolic calibration.",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "health",
+    "fitness",
+    "lifestyle",
+    "medical"
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Food",
+      "short_name": "Add",
+      "description": "Quickly log food or combination meals",
+      "url": "./index.html#add",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Log Water",
+      "short_name": "Water",
+      "description": "Quickly record water hydration",
+      "url": "./index.html#water",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
